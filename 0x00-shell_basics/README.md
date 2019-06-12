@@ -1,0 +1,1 @@
+This is a script that show the path of current directory
