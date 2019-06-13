@@ -1,0 +1,1 @@
+This is a list of commands for give or take permissions
