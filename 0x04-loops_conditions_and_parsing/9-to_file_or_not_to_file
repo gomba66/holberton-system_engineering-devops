@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#Script that show information about a file
+hol="holbertonschool"
+if [ -e $hol ]
+    then
+    echo "$hol" file exists
+    if [ -s $hol ]
+	then
+	echo "$hol" file is not empty
+    else
+	echo "$hol" file is empty
+    fi
+    if [ -f $hol ]
+	then
+	echo "$hol" is a regular file
+    fi
+else
+    echo "$hol" file does not exist
+fi
