@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#This script is for print a command and modify the output of the command
+for i in $( ls ); do
+    echo $i | cut -d '-' -f 2
+done
