@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# This script prints on screen "Holberton School" on screen using the while loop
+ITERATOR=1
+until [  $ITERATOR -gt 10 ]; do
+    echo Holberton School
+    let ITERATOR=ITERATOR+1
+done
