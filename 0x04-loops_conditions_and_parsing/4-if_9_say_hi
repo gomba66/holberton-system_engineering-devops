@@ -6,7 +6,7 @@ do
     echo Holberton School
     if [ $ITERATOR -eq 8 ]
 	then
-	echo hi
+	echo Hi
     fi
     let ITERATOR=ITERATOR+1
 done
