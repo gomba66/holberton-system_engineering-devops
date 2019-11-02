@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# This bash script display different outputs using if statements
+ITERATOR=1
+while [ $ITERATOR -le 20 ]
+do
+    echo "$ITERATOR"
+    if [ $ITERATOR -eq 4 ]
+    then
+	echo bad luck from China
+    elif [ $ITERATOR -eq 9 ]
+    then
+	echo bad luck from Japan
+    elif [ $ITERATOR -eq 17 ]
+    then
+	echo bad luck from Italy
+    fi
+    let ITERATOR=ITERATOR+1
+done
