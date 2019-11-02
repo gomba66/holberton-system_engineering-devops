@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# This script displays an iteration of 10 times, using if statements
+ITERATOR=1
+while [ $ITERATOR -le 10 ]
+do
+    if [ $ITERATOR -eq 4 ]
+    then
+	echo Bad luck
+    elif [ $ITERATOR -eq 8 ]
+    then
+	echo Good luck
+    else
+	echo Holberton School
+    fi
+    let ITERATOR=ITERATOR+1
+done
