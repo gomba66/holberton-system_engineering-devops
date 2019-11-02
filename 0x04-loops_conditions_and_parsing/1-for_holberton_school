@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# print on screen "Holberton School" 10 times
+for ((it = 0; x < 10; x++))
+do
+    echo "Holberton School"
+done
