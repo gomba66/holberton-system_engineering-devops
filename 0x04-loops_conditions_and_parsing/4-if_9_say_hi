@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# This script prints 10 times Holberton School and in the 9 iteration prints hi
+ITERATOR=0
+while [ $ITERATOR -lt 10 ];
+do
+    echo Holberton School
+    if [ $ITERATOR -eq 8 ]
+	then
+	echo hi
+    fi
+    let ITERATOR=ITERATOR+1
+done
