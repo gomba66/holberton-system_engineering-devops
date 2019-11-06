@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Script for to kill easy a process
+pkill bash
