@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 #This is a script that kill my previous process
-pkill bash
+pid=$(pgrep -f 4-to_infinity_and_beyond)
+kill $pid
