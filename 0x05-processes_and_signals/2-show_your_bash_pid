@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#This script shows only the proccess id that contains the word 'bash'
+# shellcheck disable=SC2009
+ps -auxf | grep 'bash'
