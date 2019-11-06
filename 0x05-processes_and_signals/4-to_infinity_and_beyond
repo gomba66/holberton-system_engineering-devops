@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#This script have a loop with pauses using sleep
+while ((1))
+do
+echo To infinity and beyond
+sleep 2
+done
