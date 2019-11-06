@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#This is a script that print a phrase each time that detect a signal
+trap 'echo "I am invincible!!!"' SIGTERM
+while true
+do
+    echo "To infinity and beyond"
+    sleep 2
+done
