@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#This bash script is for to connect to my remote server using ssh stored in a specific file
+ssh -i ~/.ssh/holberton ubuntu@35.231.161.8
