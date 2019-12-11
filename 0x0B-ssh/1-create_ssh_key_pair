@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#This is a script that generate a new ssh key with specific options like number of bits, file to store and phrase
+ssh-keygen -P betty -b 4096 -f holberton
