@@ -2,7 +2,7 @@
 # This Script says you who are you
 if [ $# -eq 1 ]
 then
-    echo $1
+    echo "$1"
 else
     whoami
 fi
