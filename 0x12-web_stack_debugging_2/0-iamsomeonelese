@@ -2,5 +2,5 @@
 # This Script says you who are you
 if [ $# -eq 1 ]
 then
-    echo "$1"
+    sudo -u "$1" whoami
 fi
