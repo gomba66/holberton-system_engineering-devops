@@ -5,4 +5,4 @@ sudo ufw allow 'Nginx HTTP'
 sudo ufw allow ssh
 sed -i -e 's/listen\ 8080\ default_server;/listen\ 80\ default_server;/g' /etc/nginx/sites-enabled/default
 sed -i -e 's/listen\ \[::\]:8080\ default_server\ ipv6only=on;/listen\ \[::\]:80\ default_server\ ipv6only=off;/g' /etc/nginx/sites-enabled/default
-sudo service reload nginx
+sudo service restart nginx
